@@ -29,7 +29,7 @@ function App() {
             <th>Close</th>
             <th>Volume</th>
           </tr>
-          {Object.keys(data).map((obj,key) => (
+          {Object.keys(data).map((obj, key) => (
             <tr key={key}>
               <td>{obj}</td>
               <td>{data[obj]["1. open"]}</td>
